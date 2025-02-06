@@ -4,8 +4,8 @@ on: [push, pull_request]
 
 env:
   DOCKER_IMAGE_NAME: "actions_demo"
-  SONAR_ORGANIZATION: "ScottAhern"
-  SONAR_PROJECT_KEY: "actions_demo"
+  SONAR_ORGANIZATION: "scottahern"
+  SONAR_PROJECT_KEY: "scottahern_actions-demo"
   PYTHON_APP_SOURCE_DIR: "app"
   PYTEST_COVERAGE_XML_FILE_NAME: "coverage-reports/coverage-pytest.xml"
   PYTEST_COVERAGE_THRESHOLD_PERCENT: 50
